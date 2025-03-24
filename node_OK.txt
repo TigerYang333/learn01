@@ -1,14 +1,5 @@
 Node_OK
 
-raw.githubusercontent.com/TigerYang333/learn01/refs/heads/main/HDfile02.ini
-https://github.com/liandu2024/clash/blob/main/Clash-LIAN.ini
-丢弃 列表   ：异常 失败 到期 剩余  
-
-广慈壹号 移动
-DNS1
-211.139.29.170
-DNS2
-211.139.29.150
 
 
 Clash 类的 yaml
