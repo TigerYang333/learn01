@@ -4,8 +4,13 @@ DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,Claude
 # 域名后缀匹配
-DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
