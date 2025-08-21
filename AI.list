@@ -1,16 +1,79 @@
-# 内容：OpenAi Bard anthropic
-# 域名关键字匹配
+# 内容：主流 AI 服务商域名规则
+# 匹配方式：关键字 + 域名后缀
+
+# 🔍 关键字匹配
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,Claude
-# 域名后缀匹配
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,bard
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,perplexity
+DOMAIN-KEYWORD,midjourney
+DOMAIN-KEYWORD,poe
+DOMAIN-KEYWORD,cohere
+DOMAIN-KEYWORD,stability
+DOMAIN-KEYWORD,replicate
+DOMAIN-KEYWORD,huggingface
+DOMAIN-KEYWORD,you
+DOMAIN-KEYWORD,x.ai
+DOMAIN-KEYWORD,grok
+DOMAIN-KEYWORD,ai.com
+
+# 🌐 域名后缀匹配
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,cdn.openai.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,api.anthropic.com
+
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,makersuite.google.com
+
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,copilot.microsoft.com
+
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,api.perplexity.ai
+
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,api.poe.com
+
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,api.cohere.ai
+
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,api.stability.ai
+
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,api.replicate.com
+
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,spaces.huggingface.com
+DOMAIN-SUFFIX,api.huggingface.co
+
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,api.you.com
+
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,ai.com
+
+# 🛠️ 第三方服务支持（验证、支付、分析等）
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
@@ -18,14 +81,5 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai.com
