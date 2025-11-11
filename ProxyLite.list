@@ -10,23 +10,33 @@
 # DOMAIN-SUFFIX,x.ai
 #
 # --- 组1: YouTube 核心 ---
-DOMAIN-SUFFIX,youtube.com,MyProxy
-DOMAIN-SUFFIX,googlevideo.com,MyProxy
-DOMAIN-SUFFIX,ytimg.com,MyProxy
-DOMAIN-SUFFIX,yt3.ggpht.com,MyProxy
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-KEYWORD,youtube
+RULE-SET,youtube_domain
 
 # --- 组2: Google 广告核心 (最关键) ---
-DOMAIN-SUFFIX,doubleclick.net,MyProxy
-DOMAIN-SUFFIX,googlesyndication.com,MyProxy
-DOMAIN-SUFFIX,googleadservices.com,MyProxy
-DOMAIN-SUFFIX,googletagservices.com,MyProxy
-DOMAIN-SUFFIX,2mdn.net,MyProxy
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,2mdn.net
 
 # --- 组3: Google 支持与分析 ---
-DOMAIN-SUFFIX,google-analytics.com,MyProxy
-DOMAIN-SUFFIX,googletagmanager.com,MyProxy
-DOMAIN-SUFFIX,gstatic.com,MyProxy
-DOMAIN-SUFFIX,googleapis.com,MyProxy
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,doubleclick.
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,gvt1.com
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
 
@@ -52,3 +62,15 @@ IP-CIDR,221.3.131.11/32,no-resolve
 IP-CIDR,221.3.131.12/32,no-resolve
 IP-CIDR,211.139.29.150/32,no-resolve
 IP-CIDR,211.139.29.170/32,no-resolve
+
+# Other
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-KEYWORD,youtube
+RULE-SET,youtube_domain
+DOMAIN-SUFFIX,doubleclick.
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,gvt1.com
