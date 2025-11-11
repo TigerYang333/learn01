@@ -31,6 +31,17 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,doubleclick.
+
+# --- TikTok 核心域名 ---
+# 备注：这个列表远非完整，非常容易“漏掉”流量
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,p16-tiktokcdn.com
+DOMAIN-SUFFIX,us.tiktok.com
 DOMAIN-SUFFIX,googleads.g.doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.
 DOMAIN-SUFFIX,googlevideo.com
