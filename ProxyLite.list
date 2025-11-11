@@ -62,15 +62,3 @@ IP-CIDR,221.3.131.11/32,no-resolve
 IP-CIDR,221.3.131.12/32,no-resolve
 IP-CIDR,211.139.29.150/32,no-resolve
 IP-CIDR,211.139.29.170/32,no-resolve
-
-# Other
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-KEYWORD,youtube
-RULE-SET,youtube_domain
-DOMAIN-SUFFIX,doubleclick.
-DOMAIN-SUFFIX,googleads.g.doubleclick.net
-DOMAIN-SUFFIX,googlesyndication.
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,gvt1.com
